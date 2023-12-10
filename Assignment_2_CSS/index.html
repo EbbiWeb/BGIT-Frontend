@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Two</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bungee"
+    />
+
+    <!--Internal CSS styling, kept it active for marking purposes only, web page looks the same without-->
+    <style>
+      h1 {
+        font-family: "Bungee", "Segoe UI", Tahoma, Verdana, sans-serif;
+        font-size: 10em;
+        color: rgba(255, 247, 252, 0.9);
+      }
+
+      p {
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.2em;
+        color: #1b2631;
+      }
+
+      #profile_photo {
+        width: 170px;
+      }
+    </style> 
+  </head>
+
+  <body>
+    <!--Navigation-->
+    <header role="banner">
+      <nav role="navigation">
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Main content-->
+    <main role="main">
+      <section class="main_banner">
+        <h1>Welcome</h1>
+      </section>
+
+      <!--Intro section-->
+      <section id="intro">
+        <h2>Profile</h2>
+        <div class="intro">
+          <div class="intro_image">
+            <img
+              id="profile_photo"
+              src="images/profile_photo.jpg"
+              alt="profile photo"
+              ;
+            />
+          </div>
+          <div class="intro_paragraph">
+            <p>Firstly Hi, my name's Ebony and welcome to my portfolio!</p>
+            <p>
+              I am currently working as a website content executive for a
+              company in the travel and tourism industry here in the UK.
+            </p>
+            <p>
+              I've always had a passion for not only tech, but also music,
+              SNACKS and the occasional Netflix series.
+            </p>
+            <p>
+              But here you'll see the projects i've completed while on the BGIT
+              programme and the skills i've picked up along the way!
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <!--Projects section-->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project_cards">
+          <div class="cards">
+            <img
+              class="card_space_elements table_styling"
+              src="images/table_example.png"
+              alt="profile photo"
+              width="220px"
+              ;
+            />
+            <h3 class="card_space_elements">Table Styling</h3>
+            <p class="card_space_elements">
+              For this task, we learned how to correctly format tables to hold
+              student data.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              class="card_space_elements"
+              src="images/form_example.png"
+              alt="profile photo"
+              height="170px"
+              ;
+            />
+            <h3 class="card_space_elements">Forms</h3>
+            <p class="card_space_elements">
+              Using a blend of HTML and CSS, we built and designed modern forms
+              using common form controls.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              class="card_space_elements"
+              src="images/CSS_example.png"
+              alt="profile photo"
+              height="170px"
+              ;
+            />
+            <h3 class="card_space_elements">CSS Basics</h3>
+            <p class="card_space_elements">
+              This 'box task' involved employing flex and other CSS tools.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact section-->
+      <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact_paragraph">If you'd like to get in touch, please fill out the form below:</p>
+      <div>
+        <form action="/submit-form" method="post">
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message: </label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+    </footer>
+  </body>
+</html>
