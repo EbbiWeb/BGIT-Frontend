@@ -1,0 +1,83 @@
+Question 1:
+What does HTML stand for, and what is its primary purpose in web development?
+
+HTML stands for HyperText Markup Language. It's primary purpose is to define the structure and meaning of web content.
+
+Question 2:
+Explain the difference between HTML elements and HTML attributes. Provide examples of each.
+
+HTML elements are defined by "tags" which comprises of the element name and is separate from the web content itself.
+Most commonly, tags come in pairs - opening and closing tags, and the relevant content sits between them.
+For example: the "body" element contains all the content that sits in the main body of the page.
+
+HTML attributes come in "attribute name" and "value" pairs separated by an equals sign. 
+Attributes are instructions that modify or clarify the element they sit within. 
+For example: <img src="apple.jpg" alt="apple"> - in this example, there are two attributes "src" and "alt". 
+"src" refers to the source of the image while "alt" is the alternative name shown to users when the image does not display in their browser.
+
+Question 3:
+What is the purpose of the "DOCTYPE" declaration in an HTML document? What happens if you omit it?
+
+DOCTYPE, also known as a document type declaration lets browsers know which HTML specification to use to translate the document. 
+For example <!DOCTYPE html> identifies that the document has been written using HTML5.
+If you omit this, the browser has no choice but to enter "quirks mode". This can cause the browser to render your document in a different way than intended.
+
+Question 4:
+Describe the difference between inline elements and block-level elements in HTML. Give examples of each.
+
+Inline elements are elements display in a line and only take up as much width as necessary. 
+Examples of an inline elements are "em" or "span".
+Each Block-level element however begins on a new line as the browser treats them as though they are rectangular boxes spanning the width of the viewport. 
+Examples of block-level elements are "p" and "div".
+
+Question 5:
+Explain the significance of the following HTML tags and their usage:
+
+<head> - Located above the "body" element, the "head" element contains the elements that relate to the document that are not rendered by the browser such as linked documents, page title and metadata.
+<div> - This block-level element is a generic container element with no specific semantic meaning, mostly used to aid the structure of a document with the help of CSS.
+<a> - This is the anchor element, (along with its containing href attribute), allows developers to add links to their document. This could be to web pages, email addresses or other files.
+<img> - This allows an image to be displayed on the page, the image can be imported from a file downloaded on the developers's computer or via a link address online using the "src" attribute.
+<ul>, <ol>, and <li> - These are list elements, "ul" is for unordered lists, "ol" for ordered lists and "li" for the list items. The list items are child elements of their respective "ol" or "ul" elements.
+
+
+Question 6:
+What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+
+Semantic HTML elements provide meaningful descriptions of the content, they also help with defining the hierarchy for the page. 
+Both are useful for accessability because screen readers and other user devices are able to interpret the HTML code to provide better context for the content that a user potentially cannot see.
+This also in turn helps with SEO, as once search engines and other user devices are able to understand the content and context of your web pages, they can direct traffic to your website as they understand it provides useful and complete content.
+
+Examples of semantic elements are:
+<nav> the navigation tag which is used to house navigation links on the page.
+<section> this section tag is useful for grouping sections of content together that share related themes. 
+<h1> this heading tag defines the top-level heading, there is usually just one per page.
+
+Question 7:
+What is the purpose of the HTML form element (<form>) and its associated form controls? Provide examples of common form controls.
+
+The form element is a container for all the content of the form, which are made up of form controls, such as input fields, buttons and drop-down menus.
+Forms may also contain block elements such as paragraphs and headings.
+
+Common form controls include:
+- Text-entry controls: Text fields can be added to forms using the "input" element. An example would be: "<input type="text" name="name" id="firstname">
+- Submit buttons: Commonly used at the end of forms, a submit button sends the form data to the server. An example would be: "<input type="submit" value="submit">
+
+Question 8:
+How can you add comments in HTML? Why are comments useful in web development?
+
+You can add comments in HTML by wrapping them within <!--->
+Comments are useful in web development as when multiple parties are working or viewing a HTML file, the comments can help describe the author's intentions or they can be used to define sections within the document in cases where there is a lot of code. 
+Comments are also useful because they do not display on the front end to the user.
+
+Question 9:
+What is the HTML5 standard, and what are some of the new features introduced in HTML5?
+
+HTML5 is the latest iteration and most updated version of HTML. 
+With the introduction of HTML5, there was greater emphasis on semantic markup (such as the "main" element which contains the main information on the page) and responsiveness (for example, through the "srcset" attribute which allows for multiple versions of an image to be defined for different screen resolutions).
+
+Question 10:
+Explain the concept of "responsive web design" and how HTML contributes to creating responsive websites.
+
+Responsive web design is a strategy that provides appropriate layout for a range of devices based on the size of the viewport. 
+This is done by serving a single HTML document to all devices but applying different styles using CSS. 
+That way all users have the same experience. This can be done for example, by displaying content in a column for mobile users but side by side for desktop users.
