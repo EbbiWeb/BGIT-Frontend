@@ -1,0 +1,28 @@
+HTML Basics:
+
+1. The <DOCTYPE> declaration lets browsers know the specific HTML specification to use to translate the document. <!DOCTYPE html> will indicate that HTML5 has been used.
+2. Both the div and span elements have no semantic meaning however they're most commonly added to HTML documents to aid with styling. The difference between the two are that <div> is a block-level element whereas <span> is an inline element. 
+3. Semantic HTML provides meaning to the content. It's incredibly important because it allows screen-readers, other user devices as well as search engines crawl the content and correctly interpret it's context and meaning. This ensures all users have the same experience (i.e. the website is accessible), as well as this, it will in turn aid with the website's search engine ranking once it detects the content is relevant to what the user is looking for.
+
+CSS Fundamentals:
+
+1. Margin is the space outside an element's border whereas padding is the space between the border and the element's content area.
+2. According to the box model, all elements within a document - whether inline or block-level, generates a box. Using properties such as width, height, padding, borders and margins - the appearance of these boxes can be altered. By default, the width of the box around block-level elements will span the length of the viewport, whereas the box for inline-elements will only be as wide as the width of the element's content.
+3. There may be instances where multiple styles have been applied to the same element causing conflict. Therefore, it's the type of selector used which will determine which style is applied. The more specific a selector is, the more weight is given to it allowing that style to override others with less weighting. For example, if you had coloured all your paragraphs blue using a style applied to every <p> element, (i.e: p {color:blue;}), however you wanted a specific paragraph to be green, you could add an ID that paragraph tag in the HTML document and target it in the style sheet (for ex: p#thisone {color:green;}).
+
+Responsive Design:
+
+1. A media query is a rule that can be added to your style sheet which will allow you to change the styling of elements based on the user's device characteristics such as screen resolution or the width of their browser's viewport. This is used in responsive design to allow the developer to adapt the website's layout and appearance of elements to suit the device it's being viewed on by the user. For example, a layout may be a single column for mobile users with limited screen real estate but once the viewport width exceeds a specified size, it could be changed into two columns.
+2. The main difference between adaptive and responsive design is that adaptive design works by creating multiple static layouts for a web page and based on the end user's device, the most suitable layout is chosen and displayed on the front-end. Whereas in responsive design, media queries are used to adapt the appearance of elements, such as their size or positioning based on various breakpoints determined by the developer.
+3. A viewport is the area of the visible part of the browser window open on a user's device. Therefore the size and width of viewports can differ quite significantly from device to device however the purpose of responsive web design is to provide the same experience to all users not neglecting mobile users for example.
+
+HTML5 and CSS3 features:
+
+1. <section></section> this section tag is useful for grouping sections of content together that share related themes. 
+   <h1></h1> this heading tag defines the top-level heading, there is usually just one per page.
+   <main></main> the main element contains the main information on the page.
+2. CSS variables is an alternative method for styling elements, allows users to create custom values that make the code easier to understand.
+3. Flexbox is a useful layout tool which allows content within a container to be arranged along a single axis (a row or column). The advantages of using Flexbox is that it's very simple to implement and also adapt for various viewports using media queries. In addition to this, there are a range of values allowing for great flexibility in terms of the elements positioning along the defined axis. Grid layout on the other hand is a layout method whereby content can be placed as desired as defined by columns, rows or grid areas specified in the code. The advantages of using a grid layout are it provides a consistent layout for your website, making it look more cohesive. As well as this, it can keep your content organised whilst promoting good visual hierarchy.
+
+
+

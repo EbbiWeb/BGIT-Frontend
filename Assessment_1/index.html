@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <nav role="navigation">
+                <input class="menu-btn" type="checkbox" id="menu-btn"> <!--mobile first hamburger navigation icon -->
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                <ul> <!--main navigation -->
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Page2</a></li>
+                  <li><a href="#">Page3</a></li>
+                  <li><a href="#">page4</a></li>
+                </ul>
+              </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>Tea Makers</h1>
+
+        <h2>How to make a cup of tea</h2>
+        <ol>
+            <li><a href="#">Get a mug</a></li>
+            <li><a href="#">Boil the kettle</a></li>
+            <li><a href="#">Put a tea bag in the mug</a></li>
+        </ol>
+       <!--Form-->
+       <section id="form">
+
+        <p class="form_intro">Please fill out the form below to get in touch:</p>
+        <div>
+          <form action="/submit-form" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <fieldset>
+                <legend>Tick any that apply</legend>
+              
+        
+                  <input type="checkbox" id="coffee" name="coffee" checked />
+                  <label for="coffee">I like coffee</label>
+   
+                  <input type="checkbox" id="tea" name="tea" />
+                  <label for="tea">I like tea</label>
+   
+              </fieldset>
+              
+      
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+
+              <fieldset>
+                <label for="age">Was this form easy? </label>
+            
+                <input type="radio" id="yes" name="no" value="no" />
+                <label for="yes">yes</label>
+          
+                <input type="radio" id="no" name="no" value="no" />
+                <label for="no">No</label>
+        
+
+            </fieldset>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
